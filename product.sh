@@ -7,4 +7,4 @@ do
 	product=$(bc <<< "$product * $i" )
 	
 done
-echo "$product"
+echo "product is $product"
